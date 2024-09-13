@@ -10,6 +10,9 @@ function App() {
         <p>
           Test React - Github Pages
         </p>
+        <p>
+          {process.env.REACT_APP_TEST_KEY}
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"

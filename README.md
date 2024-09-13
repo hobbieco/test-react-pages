@@ -15,10 +15,17 @@ npm install gh-pages --save-dev
   "deploy": "gh-pages -d build"
 }
 ```
+
+- run react
+```shell
+yarn start
+```
+
 - deploy gh-pages
 ```shell
 yarn deploy
 ```
+
 - github setting
   - repository settings > pages > branch
     - gh-pages and root
